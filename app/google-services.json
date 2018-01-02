@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "531105233152",
+    "firebase_url": "https://bacsivietvn-f6979.firebaseio.com",
+    "project_id": "bacsivietvn-f6979",
+    "storage_bucket": "bacsivietvn-f6979.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531105233152:android:3c59e6f9e46f9404",
+        "android_client_info": {
+          "package_name": "vn.bacsiviet.bacsivietvn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531105233152-vk94i97qjef47721sfnl2nlvgnp6vffb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.bacsiviet.bacsivietvn",
+            "certificate_hash": "3a740e6cb59782de38e0945016ebed72c6e3ebea"
+          }
+        },
+        {
+          "client_id": "531105233152-hg6dci1ce8oujdmgtkdkvdj4c9vne2ir.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC26Q2EXnvMVOmVayCrDiAWB6E-JzLY4FA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531105233152-hg6dci1ce8oujdmgtkdkvdj4c9vne2ir.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

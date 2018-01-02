@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icon_home"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_question"
+            android:icon="@drawable/icon_comment"
+            android:title="@string/nav_question" />
+        <item
+            android:id="@+id/nav_post"
+            android:icon="@drawable/icon_heartbeat"
+            android:title="@string/nav_post" />
+        <!--
+        <item android:id="@+id/nav_xetnghiem" android:icon="@drawable/icon_xetnghiem"
+            android:title="Xét Nghiệm" />-->
+        <item
+            android:id="@+id/nav_sick"
+            android:icon="@drawable/icon_benh"
+            android:title="@string/nav_sick" />
+        <item
+            android:id="@+id/nav_drug"
+            android:icon="@drawable/icon_thuoc"
+            android:title="@string/nav_drug" />
+        <item
+            android:id="@+id/nav_doctor"
+            android:icon="@drawable/icon_bacsi"
+            android:title="@string/nav_doctor" />
+        <item
+            android:id="@+id/nav_health_service"
+            android:icon="@drawable/icon_benhvien"
+            android:title="@string/nav_health_service" />
+        <item
+            android:id="@+id/nav_sale"
+            android:icon="@drawable/icon_khuyenmai"
+            android:title="@string/nav_sale" />
+
+    </group>
+    <item android:title="Thông tin">
+        <menu>
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/icon_info"
+                android:title="@string/nav_info" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_important"
+                android:title="@string/nav_logout" />
+        </menu>
+    </item>
+
+</menu>

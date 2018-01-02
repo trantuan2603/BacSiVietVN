@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vn.bacsiviet.bacsivietvn.QuestionActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/line_questtion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:background="@drawable/myrect"
+            android:elevation="2dp">
+
+            <ImageButton
+                android:id="@+id/image_btn_feature"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/and_feature" />
+
+            <TextView
+                android:id="@+id/tv_tilte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:background="@color/colorTitle"
+                android:padding="@dimen/_16sdp"
+                android:text="Mang thai tuan thu 17 nen biet nhung gi"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:elevation="2dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_8sdp"
+                android:text="Câu hỏi mới nhất"
+                android:textSize="16sp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:textStyle="bold" />
+
+            <ListView
+                android:id="@+id/lv_question"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/myrect"
+                android:layout_margin="@dimen/_8sdp"
+                android:elevation="2dp">
+
+            </ListView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:background="@drawable/custom_btn_question"
+        android:drawableLeft="@drawable/ic_create_black_24dp"
+        android:drawableTint="@color/white"
+        android:elevation="2dp"
+        android:padding="@dimen/_8sdp"
+        android:text="@string/btn_question"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite" />
+
+</RelativeLayout>

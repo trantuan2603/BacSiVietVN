@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_item_question"
+    android:layout_margin="@dimen/_16sdp">
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Con tôi bị dị ứng với sữa mẹ khi ăn thịt bò và thịt dê"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:id="@+id/tv_person"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:text="nguoi hoi"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="@dimen/_8sdp"
+            />
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:text="13/12/2017"
+            android:layout_toRightOf="@+id/tv_person"
+            />
+        <TextView
+            android:id="@+id/tv_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:text="Chuyen khoa: san"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_content_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Em bị viêm âm đạo đi khám bs cho thuốc đặt clovucire nhưng em tới kì kinh nguyệt vậy có đặt thuốc trong quá trình hành kinh được không"
+        android:maxLines="2"
+        android:ellipsize="end"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        >
+        <ImageView
+           android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            app:srcCompat="@drawable/ic_favorite_border_black_24dp"
+            android:tint="@color/colorAccent"
+            />
+        <TextView
+            android:id="@+id/tv_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/_16sdp"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>
